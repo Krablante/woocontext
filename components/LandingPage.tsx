@@ -177,9 +177,9 @@ export const LandingPage: React.FC = () => {
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-slate-100 -z-10 hidden md:block transform -translate-y-1/2"></div>
                 
                 {[
-                    { step: "01", title: "Configure", desc: "Set tone (Professional, Witty) and target length." },
+                    { step: "01", title: "Configure", desc: "Set tone (Professional, Witty etc.) and target length." },
                     { step: "02", title: "Select", desc: "Choose Global Generation or filter specific categories." },
-                    { step: "03", title: "Process", desc: "Queue runs in background. Watch the live terminal." }
+                    { step: "03", title: "Process", desc: "Queue runs in background." }
                 ].map((item, idx) => (
                     <div key={idx} className="bg-white p-6 text-center">
                         <div className="w-16 h-16 rounded-full bg-white border-2 border-indigo-100 text-indigo-600 flex items-center justify-center text-xl font-bold mx-auto mb-6 shadow-sm">
