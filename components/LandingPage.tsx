@@ -191,9 +191,9 @@ export const LandingPage: React.FC = () => {
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Bulk Generation</li>
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Standard Support</li>
                     </ul>
-                    <button className="w-full py-3 rounded-lg border border-slate-600 hover:bg-slate-700 font-medium transition-colors">
-                        Choose Plan
-                    </button>
+                    <a href="#" className="w-full py-3 rounded-lg border border-slate-600 hover:bg-slate-700 font-medium transition-colors text-center">
+                        Buy Pro
+                    </a>
                 </div>
 
                 {/* Agency */}
@@ -207,9 +207,9 @@ export const LandingPage: React.FC = () => {
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Source Code Access</li>
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Priority Queue Logic</li>
                     </ul>
-                    <button className="w-full py-3 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium transition-colors shadow-lg shadow-indigo-900/20">
+                    <a href="#" className="w-full py-3 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium transition-colors shadow-lg shadow-indigo-900/20 text-center">
                         Get Lifetime Access
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
