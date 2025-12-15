@@ -185,13 +185,13 @@ export const LandingPage: React.FC = () => {
                 {/* Solo */}
                 <div className="bg-slate-800/50 backdrop-blur border border-slate-700 p-8 rounded-2xl flex flex-col">
                     <h3 className="text-2xl font-bold mb-2">Solopreneur</h3>
-                    <div className="text-4xl font-extrabold mb-6">$49<span className="text-lg font-normal text-slate-400">/year</span></div>
+                    <div className="text-4xl font-extrabold mb-6">SOON<span className="text-lg font-normal text-slate-400">/year</span></div>
                     <ul className="space-y-4 mb-8 text-slate-300 flex-grow">
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> 1 WordPress Site</li>
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Bulk Generation</li>
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Standard Support</li>
                     </ul>
-                    <a href="https://woocontext.lemonsqueezy.com/buy/561d6199-6c96-42f5-b8b1-af142f043aef" className="w-full py-3 rounded-lg border border-slate-600 hover:bg-slate-700 font-medium transition-colors text-center">
+                    <a href="" className="w-full py-3 rounded-lg border border-slate-600 hover:bg-slate-700 font-medium transition-colors text-center">
                         Buy Pro
                     </a>
                 </div>
@@ -200,14 +200,14 @@ export const LandingPage: React.FC = () => {
                 <div className="bg-gradient-to-b from-indigo-900/40 to-slate-800/50 backdrop-blur border border-indigo-500/30 p-8 rounded-2xl flex flex-col relative overflow-hidden">
                     <div className="absolute top-0 right-0 bg-indigo-600 text-xs font-bold px-3 py-1 rounded-bl-lg">BEST VALUE</div>
                     <h3 className="text-2xl font-bold mb-2 text-white">Agency / LTD</h3>
-                    <div className="text-4xl font-extrabold mb-6">$149<span className="text-lg font-normal text-slate-400">/lifetime</span></div>
+                    <div className="text-4xl font-extrabold mb-6">SOON<span className="text-lg font-normal text-slate-400">/lifetime</span></div>
                     <ul className="space-y-4 mb-8 text-slate-300 flex-grow">
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Unlimited Sites</li>
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> White Label Ready</li>
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Source Code Access</li>
                         <li className="flex gap-3"><CheckCircle2 size={20} className="text-indigo-400" /> Priority Queue Logic</li>
                     </ul>
-                    <a href="https://woocontext.lemonsqueezy.com/buy/b0fc79f6-4f42-4327-9618-e7d2128a2118" className="w-full py-3 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium transition-colors shadow-lg shadow-indigo-900/20 text-center">
+                    <a href="" className="w-full py-3 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium transition-colors shadow-lg shadow-indigo-900/20 text-center">
                         Get Lifetime Access
                     </a>
                 </div>
