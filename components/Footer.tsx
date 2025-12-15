@@ -15,9 +15,6 @@ export const Footer: React.FC = () => {
                 <Link to="/terms" className="hover:text-indigo-600">Terms of Service</Link>
                 <a href="/#how-it-works" className="hover:text-indigo-600">Documentation</a>
             </div>
-            <div className="mt-4 md:mt-0 flex items-center gap-2">
-                 <Terminal size={14} /> Built by Senior Developers. v0.1.0
-            </div>
         </div>
       </footer>
   );
