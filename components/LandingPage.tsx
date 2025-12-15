@@ -22,10 +22,6 @@ export const LandingPage: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
             >
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-semibold uppercase tracking-wide mb-6">
-                    <span className="w-2 h-2 rounded-full bg-indigo-600 animate-pulse"></span>
-                    v0.1.0 • POWERED BY GPT-4o
-                </div>
                 <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-6">
                     Bulk Generate <br/>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">10,000+ Descriptions.</span><br/>
