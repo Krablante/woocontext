@@ -4,35 +4,15 @@ import { TerminalAnimation } from './TerminalAnimation';
 import { 
   Database,
   ShieldCheck, 
-  Box, 
   Settings2, 
   CheckCircle2, 
-  Terminal,
   Cpu
 } from 'lucide-react';
 
 export const LandingPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white selection:bg-indigo-100 selection:text-indigo-900">
+    <div className="bg-white selection:bg-indigo-100 selection:text-indigo-900">
       
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-            <div className="flex items-center gap-2 font-bold text-xl tracking-tight text-slate-900">
-                <Box className="text-indigo-600" />
-                <span>WooContext<span className="text-indigo-600">AI</span></span>
-            </div>
-            <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
-                <a href="#features" className="hover:text-indigo-600 transition-colors">Features</a>
-                <a href="#how-it-works" className="hover:text-indigo-600 transition-colors">How it Works</a>
-                <a href="#pricing" className="hover:text-indigo-600 transition-colors">Pricing</a>
-            </div>
-            <a href="#pricing" className="bg-slate-900 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-slate-800 transition-colors">
-                Get Started
-            </a>
-        </div>
-      </nav>
-
       {/* Hero Section */}
       <section className="pt-32 pb-24 md:pt-48 md:pb-32 px-6">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
@@ -42,6 +22,10 @@ export const LandingPage: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
             >
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-semibold uppercase tracking-wide mb-6">
+                    <span className="w-2 h-2 rounded-full bg-indigo-600 animate-pulse"></span>
+                    v0.1.0 • POWERED BY GPT-4o
+                </div>
                 <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-6">
                     Bulk Generate <br/>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">10,000+ Descriptions.</span><br/>
@@ -234,21 +218,6 @@ export const LandingPage: React.FC = () => {
             </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="py-12 border-t border-slate-200 px-6">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
-            <div className="flex items-center gap-2 mb-4 md:mb-0">
-                <Box size={20} className="text-indigo-600" />
-                <span className="font-semibold text-slate-700">WooContext AI</span>
-            </div>
-            <div className="flex gap-6">
-                <a href="#" className="hover:text-indigo-600">Privacy</a> 
-                <a href="#" className="hover:text-indigo-600">Terms</a>
-                <a href="#" className="hover:text-indigo-600">Documentation</a>
-            </div>
-        </div>
-      </footer>
     </div>
   );
 };
